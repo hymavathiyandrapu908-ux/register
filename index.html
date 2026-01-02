@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e4cece;
+        }
+
+        .form-container {
+            width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #f7f4ee;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;}
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 10px;
+            display: block;
+        }
+        .row {
+            display: flex;
+            gap: 50px;
+        }
+
+        .input-box {
+            width: 90%;
+            padding: 10px;
+            margin-top:5px;
+            border:1px solid #ccc;
+            border-radius:5px;
+        }
+        
+        .gender {
+            margin-top: 10px;
+        }
+
+        select {
+            width: 95%;
+            padding:10px;
+            margin-top:5px;
+            border-radius:5px;
+            border: 1px solid #ccc;
+        
+        }
+        button {
+            margin-top: 20px;
+            padding:10px 25px;
+            background-color: #1a73e8;
+            color: white;
+            border:none;
+            border-radius:5px;
+            cursor: pointer;
+        }
+
+         </style>
+    
+</head>
+<body>
+    
+    <div class="form-container">
+     <h2>Registratin Form</h2>
+
+
+     <div class="row">
+         <div style="width: 40%;">
+             <label>First Name</label>
+             <input type="text" class="input-box" placeholder="Hymavathi">
+         </div>
+          
+
+         <div style="width:40%;">
+            <label>Last Name</label>
+            <input type="text" class="input-box" placeholder="Yandrapu">
+        </div>
+        </div> 
+
+        <div class="row">
+            <div style="width:50%;">
+                <label>Birthday</label>
+                <input type="date" class="input-box">
+            </div>
+         </div>
+          
+         <div style="width: 50%;">
+            <label>Gender</lable>
+                <div class="gender">
+                    <input type="radio" name="gender"> Male
+                    <input type="radio" name="gender"> Female
+                 </div>
+         </div>
+         
+         <div> 
+            <label>Email</Label>
+            <input type="email" class="input-box">
+        </div>
+
+        <div>
+            <label>Phone Number</label>
+            <input type="text" class="input-box">
+        </div>
+
+
+        <label>subject</label>
+        <select>
+            <opyion>Choose option</option>
+            <option>UI/UX Design</option>
+            <option>Web Development</option>
+            <option>Digital Marketing</option>
+        </select>
+
+    <button>Submit</button>
+    </div>
+    
+</body>
+</html>
